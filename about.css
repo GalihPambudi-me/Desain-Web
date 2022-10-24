@@ -15,27 +15,9 @@ body{
     background:#417aa8;
     color:#fff;
 }
-.header1{
-    width:90%;
-    margin:auto;
-    height:120px;
-    font-family:Segoe UI;
-    line-height:120px;
-    background:#ff0404;
-    color:#fff;
-}
 
 .menu{
     background-color:#417aa8; 
-    height:50px; 
-    line-height:50px; 
-    position:relative;
-    width:90%;
-    margin:0 auto;
-    padding:0 auto;
-}
-.menu1{
-    background-color:#ff0404; 
     height:50px; 
     line-height:50px; 
     position:relative;
@@ -69,8 +51,17 @@ body{
 .content{
     width:90%;
     margin:auto;
-    height:40pc;
+    height:420px;
     padding:0px;
+    background:#fff;
+    color:#333;
+}
+.contentmap{
+    width:90%;
+    margin:auto;
+    height:420px;
+    padding:0px;
+    padding-top: 2pc;
     background:#fff;
     color:#333;
 }
@@ -92,11 +83,17 @@ body{
 }
 
 .kanan{
-    width:30%;
-    float:left;
+    width:25%;
+    float:right;
     margin:auto;
-    background:#fff;
-    height:420px;
+    margin-top: 1pc;
+}
+.kanankontak{
+    width:630px;
+    float:right;
+    margin:auto;
+    margin-top: 5pc;
+    font-size: larger;
 }
 
 .undecor{
